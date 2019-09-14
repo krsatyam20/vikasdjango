@@ -1,0 +1,49 @@
+<html>
+<head>
+<!-- Add cdn of jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script>
+//jquery is a library file of java script
+
+
+
+/*function hide(){
+
+document.getElementById("pone").style="display:none";
+
+}*/
+
+//jquery/$().click
+
+$(document).ready(function(){
+
+ //$("tagName/#idName/.ClassName")
+	 $("button").click(function(){
+	 
+	 $("#pone").hide();
+	 
+	 });
+
+	$("p").click(function(){
+	  $(this).hide();
+	
+	});
+
+
+
+});
+</script>
+</head>
+<body>
+<p id="pone"> hello i am a student </p>
+
+<button> Click </button> 
+<p> hello i am a student 1 </p>
+<p> hello i am a student 2</p>
+<p> hello i am a student 3</p>
+<p> hello i am a student 4</p>
+<p> hello i am a student 5</p>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<html>
+<head>
+<!-- Add cdn of jquery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script>
+$(document).ready(function(){
+
+$("#slide1").click(function(){
+
+$("#slide2").show();
+$(this).hide();
+
+});
+
+
+
+$("#slide2").click(function(){
+
+$("#slide1").show();
+$(this).hide();
+
+});
+
+
+
+
+
+
+
+});
+</script>
+<style>
+.secSlid{
+
+display:none;
+
+}
+</style>
+</head>
+<body>
+
+<div id="slide1"> <img src="OBaVg52wtTZ.png" />  </div>
+
+<div id="slide2" class="secSlid"> <img src="image-250nw-452800699.jpg" />  </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
